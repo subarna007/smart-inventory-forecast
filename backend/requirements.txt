@@ -1,7 +1,7 @@
-fastapi 
-uvicorn 
-pandas 
-numpy 
-scikit-learn 
-prophet 
-python-multipart 
+fastapi
+uvicorn[standard]
+pandas
+numpy
+python-multipart
+# prophet is optional; if you want more accurate seasonality forecasting install prophet separately.
+prophet
